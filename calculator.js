@@ -109,3 +109,20 @@ document.getElementById("background").style.backgroundColor = "orange";
 
   }
  }
+ // Change Background Image
+ function url() {
+	var input = confirm("Do you want to change the background image for the page?")
+	if (input == true){ 
+ var url1 = prompt('What would you like the background url to be?')
+document.body.style.backgroundImage = "url(" + url1 + ")";
+	}
+	else {
+	var input2 = confirm("Do you want to change the background image for the calculator?")
+	}
+	if (input2 == true){
+		 var url2 = prompt('What would you like the background url to be?')
+document.getElementById("background").style.backgroundImage = "url("+url2+")";
+	}
+	
+ }
+ 
