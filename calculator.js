@@ -1,7 +1,7 @@
 // JavaScript Document
 //Change Display
 function d(val) {
-	document.getElementById("d").value = va;;
+	document.getElementById("d").value = val;
 }
 
 // Type Num and Operators
