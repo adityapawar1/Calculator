@@ -13,7 +13,7 @@ function v(val) {
 
 function e() {
 	try {
-		d(eval(document.getElementbyId("d").value));
+		d(eval(document.getElementById("d").value));
 	}
 	catch(err) {
 		d("Error");
