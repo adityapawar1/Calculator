@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 .box {
-	background-color: white;
-	height: 300px;
+	background-color: gold;
+	height: 350px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
